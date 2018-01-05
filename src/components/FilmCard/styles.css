@@ -1,0 +1,13 @@
+.FilmCard{
+    position: relative;
+    padding: 5px;
+    background-color: #a6bfcc;
+    box-shadow: 0 0 3px 3px rgba(33,33,33,.7);
+}
+
+.FilmCard__header{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+}

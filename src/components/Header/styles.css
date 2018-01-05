@@ -1,0 +1,23 @@
+.Header {
+    background-color: #778f9b;
+    margin-bottom: 20px;
+    height: 80px;
+    line-height: 50px;
+    padding: 5px;
+    color: rgba(0,0,0, .7);
+    font-size: 1.6rem;
+    text-align: center;
+    vertical-align: center;
+    border-bottom: solid 5px #62efff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__title{
+    padding-right: 10px;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-shadow: 2px 2px 10px black;
+}

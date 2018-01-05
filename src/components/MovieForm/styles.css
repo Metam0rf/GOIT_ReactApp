@@ -1,0 +1,44 @@
+.MovieForm{
+    width: 30%;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #a6bfcc;
+    box-shadow: 0 0 3px 3px rgba(33,33,33,.7);
+}
+
+.MovieForm * {
+    font-size: 24px;
+}
+
+.MovieForm__label{
+    width: 100%;
+    color: #fff;
+}
+
+.MovieForm__input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.MovieForm__textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.MovieForm__submit{
+    display: block;
+    margin: auto;
+}
+
+.MovieForm__submit:hover{
+    transition: background-color 0.5s linear;
+    background-color: #00bcd4;
+}
+
+
+
+@media all and (max-width: 600px) {
+    .MovieForm {
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: auto auto 2vh;
+  width: 80%;
+  font-family: Roboto, sans-serif;
+  background-color: #4a626d;
+  /*text-align: center;*/
+}
+
