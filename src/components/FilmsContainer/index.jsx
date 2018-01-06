@@ -9,10 +9,10 @@ const FilmsContainer = () => {
         const films = FilmsDataBase.map((film) => <FilmCard key={film.id} {...film} />);
 
         return (
-            <main>
+            <div className="FilmsContainer">
                 {films}
-            </main>
+            </div>
         );
-}
+};
 
 export default FilmsContainer;

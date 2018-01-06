@@ -1,6 +1,7 @@
 import React from 'react'
 import FilmsContainer from 'components/FilmsContainer';
 import MovieForm from 'components/MovieForm';
+import './styles.css';
 
 export default class Body extends React.Component{
 

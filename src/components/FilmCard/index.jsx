@@ -1,13 +1,16 @@
 import React from 'react';
 import StyledDeleteButton from 'components/Button/styledComponents/styledDeleteBttn';
+import ChipsList from 'components/ChipsList';
 import './styles.css'
 
 export default class FilmCard extends React.Component {
     constructor(props){
         super(props);
-        console.log(props);
+
         this.title = props.title;
-        this.description = props.description;
+        this.description = `${props.description.substring(0, 250)}...`;
+        this.rating = props.userRating;
+        this.tags = props.tags;
     }
 
     render() {
@@ -16,7 +19,9 @@ export default class FilmCard extends React.Component {
             <article className="FilmCard">
                 <h2 className="FilmCard__header">{this.title}</h2>
                 <p className="FilmCard__body">{this.description}</p>
-                <StyledDeleteButton>Delete</StyledDeleteButton>
+                <StyledDeleteButton className="FilmCard__delete">Delete</StyledDeleteButton>
+                <p className="FilmCard__rating">{`Rating: ${this.rating}/10`}</p>
+                <ChipsList chips={this.tags} />
             </article>
         )
     };

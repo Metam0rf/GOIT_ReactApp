@@ -2,7 +2,7 @@
   "name": "react-goit-ex1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://metam0rf.github.io/my-app",
+  "homepage": "https://metam0rf.github.io/GOIT_ReactApp",
   "dependencies": {
     "dotenv": "^4.0.0",
     "gh-pages": "^1.1.0",

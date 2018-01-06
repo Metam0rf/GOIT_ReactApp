@@ -6,9 +6,14 @@
 
 .App {
   margin: auto auto 2vh;
-  width: 80%;
+  max-width: 1280px;
+  /*width: 70%;*/
   font-family: Roboto, sans-serif;
   background-color: #4a626d;
   /*text-align: center;*/
+}
+
+li{
+  display: list-item;
 }
 

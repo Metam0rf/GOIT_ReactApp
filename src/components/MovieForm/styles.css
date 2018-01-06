@@ -1,9 +1,10 @@
 .MovieForm{
-    width: 30%;
+    flex: 0 0 32%;
     padding: 20px;
     font-size: 24px;
     background-color: #a6bfcc;
     box-shadow: 0 0 3px 3px rgba(33,33,33,.7);
+    border-radius: 2px;
 }
 
 .MovieForm * {
@@ -12,7 +13,7 @@
 
 .MovieForm__label{
     width: 100%;
-    color: #fff;
+    color: #000;
 }
 
 .MovieForm__input{
@@ -37,8 +38,8 @@
 
 
 
-@media all and (max-width: 600px) {
-    .MovieForm {
-        width: 100%;
-    }
-}
+/*@media all and (min-width: 600px) {*/
+    /*.MovieForm {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
