@@ -38,4 +38,6 @@ const films = [
     }
 ];
 
-export default films;
+const genres = ["drama", "action", "comedy", "horror", "thriller", "sci-fi"];
+
+export {films, genres};
