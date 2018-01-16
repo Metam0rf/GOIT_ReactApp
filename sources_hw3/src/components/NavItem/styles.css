@@ -1,0 +1,50 @@
+.NavItem {
+    /*height: 100px;*/
+    padding: 0 5px 0 5px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: color 0.25s;
+    list-style: none;
+    position: relative;
+}
+
+.NavItem::after {
+     box-sizing: inherit;
+     content: '';
+     position: absolute;
+     width: 100%;
+     /*height: 100%;*/
+ }
+
+.NavItem:hover {
+    color: #62efff;
+    transition: width 0.25s ease-out
+}
+
+.NavItem:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.NavItem:hover::after {
+    border-bottom: solid #fff 5px;
+    transition: width 0.5s;
+}
+
+.NavItem::after {
+    /*// Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts*/
+    /*border-bottom: 4px solid transparent;*/
+    border-bottom: 5px solid #fff;
+    transition: width 0.5s;
+    width: 0;
+    height: 0;
+}
+
+.NavItem::after {
+    bottom: -17px;
+    left: 0;
+}

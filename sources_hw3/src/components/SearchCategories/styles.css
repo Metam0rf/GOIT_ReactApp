@@ -1,0 +1,26 @@
+.SearchCategories{
+    display: flex;
+    /*align-items: center;*/
+    align-content: space-around;
+    justify-content: space-around;
+}
+.SearchCategories__btn{
+    display: block;
+    padding: 10px 8px;
+    outline: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: solid transparent 2px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    transition: background-color .3s linear;
+}
+
+.SearchCategories__btn:hover{
+    background-color: #62efff;
+    box-shadow: 0 0 6px black;
+    /*border: solid #00bcd4 2px;*/
+}

@@ -1,0 +1,6 @@
+.App__Body{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
