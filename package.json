@@ -2,7 +2,7 @@
   "name": "react-goit-ex1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://metam0rf.github.io/GOIT_ReactApp",
+  "homepage": "https://metam0rf.github.io/GOIT_ReactApp/hw2",
   "dependencies": {
     "dotenv": "^4.0.0",
     "gh-pages": "^1.1.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b hw2 -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
