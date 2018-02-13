@@ -1,0 +1,11 @@
+.FilmsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 78%;
+}
+
+.FilmsContainer__item{
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 0 20px 20px;
+}

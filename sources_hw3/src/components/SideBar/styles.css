@@ -1,0 +1,7 @@
+.SideBar{
+    flex: 0 0 20%;
+}
+
+.SideBar__categories-wrapper{
+    margin-bottom: 30px;
+}

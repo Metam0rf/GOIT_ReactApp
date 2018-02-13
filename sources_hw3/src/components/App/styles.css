@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p{
+  display: block;
+}
+
+body{
+  background-color: #4a626d;
+}
+
+.App {
+  margin: 0 2vh;
+  max-width: 95%;
+  min-width: 1280px;
+  font-family: Roboto, sans-serif;
+  background-color: #4a626d;
+  padding: 0 10px;
+  /*text-align: center;*/
+}
+
+li{
+  display: list-item;
+}
+

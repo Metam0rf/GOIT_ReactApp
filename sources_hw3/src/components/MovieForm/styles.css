@@ -1,0 +1,67 @@
+.MovieForm{
+    flex: 0 0 32%;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #a6bfcc;
+    box-shadow: 0 0 3px 3px rgba(33,33,33,.7);
+    border-radius: 2px;
+}
+
+.MovieForm * {
+    font-size: 24px;
+}
+
+.MovieForm__label{
+    width: 100%;
+    color: #000;
+}
+
+.MovieForm__input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.MovieForm__textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.MovieForm__submit{
+    display: block;
+    margin: auto;
+}
+
+.MovieForm__submit:hover{
+    transition: background-color 0.5s linear;
+    background-color: #00bcd4;
+}
+
+.MovieForm__genres{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.MovieForm__genres label{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    align-content: center;
+}
+
+.MovieForm__genres input{
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+/*@media all and (min-width: 600px) {*/
+    /*.MovieForm {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/

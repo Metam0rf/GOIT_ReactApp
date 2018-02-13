@@ -1,0 +1,17 @@
+.ChipsList{
+    width: 85%;
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.ChipsList__item{
+    margin-right: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #4a626d;
+    text-transform: capitalize;
+    color: white;
+}
